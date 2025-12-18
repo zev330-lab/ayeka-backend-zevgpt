@@ -1,0 +1,46 @@
+{
+  "name": "ayeka-backend-zevgpt",
+  "version": "2.1.0",
+  "description": "Ayeka spiritual coaching platform backend with ZevGPT AI integration",
+  "main": "ayeka-backend-with-zevgpt.js",
+  "scripts": {
+    "start": "node ayeka-backend-with-zevgpt.js",
+    "dev": "nodemon ayeka-backend-with-zevgpt.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "stripe": "^14.10.0",
+    "openai": "^4.20.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "spiritual",
+    "coaching",
+    "kabbalah",
+    "enneagram",
+    "quantum",
+    "meditation",
+    "ai",
+    "gpt",
+    "nodejs",
+    "express"
+  ],
+  "author": "Zev Steinmetz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ayeka-backend-zevgpt.git"
+  }
+}
